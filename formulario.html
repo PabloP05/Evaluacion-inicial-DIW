@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Incendios forestales</h1>
+        <h3>consecuencias del cambio climatico en el planeta tierra</h3>
+    </header>
+    <nav>
+        <a href="info.html" class="indice"><div><p>VOLVER</p></div></a>
+      
+    </nav>
+
+    <form action="" method="post">
+    
+        <!-- Usuario y contraseña -->
+        <label for="usuario">Nombre de usuario:</label><br>
+        <input type="text" id="usuario" name="usuario"><br><br>
+    
+        <label for="password">Correo electronico:</label><br>
+        <input type="mail" id="mail" name="mail"><br><br>
+    
+        <!-- Género -->
+        <p class="txt-form">Género:</p>
+        <input type="radio" id="masculino" name="genero" value="masculino">
+        <label for="masculino">Masculino</label><br>
+        <input type="radio" id="femenino" name="genero" value="femenino">
+        <label for="femenino">Femenino</label><br><br>
+
+        
+        <!-- Intereses relacionados con el cambio climático -->
+        <p class="txt-form">¿Qué temas te interesan?</p>
+        <input type="checkbox" id="energias-renovables" name="intereses[]" value="energias-renovables">
+        <label for="energias-renovables">Energías renovables</label><br>
+        <input type="checkbox" id="reciclaje" name="intereses[]" value="reciclaje">
+        <label for="reciclaje">Reciclaje</label><br>
+        <input type="checkbox" id="educacion-ambiental" name="intereses[]" value="educacion-ambiental">
+        <label for="educacion-ambiental">Educación ambiental</label><br>
+        <input type="checkbox" id="reforestacion" name="intereses[]" value="reforestacion">
+        <label for="reforestacion">Reforestación</label><br><br>
+
+
+
+        <p class="txt-form">Nacionalidad</p>
+        <select name="paises" id="" required>
+            <option value="" selected></option>
+            <option value="China">China</option>
+            <option value="Korea">Korea</option>
+            <option value="Francia">Francia</option>
+            <option value="Alemania">Alemania</option>
+            <option value="Bulgaria">Bulgaria</option>
+            <option value="EEUU">Estados Unidos</option>
+            <option value="Canadá">Canadá</option>
+            <option value="Tailandia">Tailandia</option>
+            <option value="Italia">Italia</option>
+            <option value="España">España</option>
+        </select>
+
+
+        <!-- Aceptación de políticas -->
+        <input type="checkbox" id="politicas" name="politicas" required>
+        <label for="politicas">Estoy de acuerdo con las políticas de privacidad y uso</label><br><br>
+    
+        <input type="submit" value="Registrarse">
+        <input type="reset" value="Reiniciar formulario">
+      </form>
+</body>
+</html>

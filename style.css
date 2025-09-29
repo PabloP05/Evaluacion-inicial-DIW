@@ -1,0 +1,220 @@
+*{ /*Para dejar fijo arriba el header*/
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #e0f7fa, #e8f5e9);
+}
+
+header{
+    background-color: #99c46a;
+    color: white;
+    width: 1432.800px;  /*total de la pantalla 1472.8 - padding (20+20) = 1432.800px */
+    height: 150;
+    padding: 20px;
+    text-align: center;
+}
+
+nav{
+    width: 1472.800px; /*maximo de la pantalla de pruebas */
+    height: 50px;
+    background-color: #99c46a;
+    text-align: center;
+}
+
+
+.indice{
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: azure;
+    font-family: sans-serif;
+    text-decoration: none;
+
+}
+
+
+.cambiocClimaticoSeccion{
+    width: 1000px;
+    margin-left: 236.4px; /*calculo para centrar : ((1472.2/2)-500)= 236.4px*/
+    margin-right: 236.4px;
+    height: 350px; /*height total es 350px + 50 px de padding-top*/
+    box-shadow: 4px 4px 8px black;
+    padding-top:50px;
+    margin-top: 50px;
+}
+
+
+.parrafo{
+    width: 600px;
+    text-align: justify;
+    margin-left: 10px;
+    height: 250px;
+    margin-left: 50px;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+
+.subtituloCambioClimatico{
+    margin-left: 30px;
+}
+.imagenesParrafo{
+    width: 300px;
+    height: 200px;
+    float: right;
+    margin-right: 20px;
+    
+}
+
+img{
+    width: 350px;
+}
+table{
+    border: 1px, solid, black;
+    border-collapse: collapse;
+    margin: auto;
+    margin-top: 30px;
+    width: 900px;
+    text-align: center;
+    margin-top: 50px;
+}
+tr,td,th{
+    border: 1px, solid, black;
+    border-collapse: collapse;
+}
+
+
+#comparador{
+    width: 900px;
+    height: 400px;
+    margin: auto;
+    text-align: center;
+    margin-top: 40px;
+}
+.grafica{
+    width: 350px;
+   
+    margin: auto;
+    float: right;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+
+
+/***********************************************************************************/
+
+/*PAGINA 2*/
+#notaDeDialogo{
+    width: 1000px;
+        margin: auto;
+        height: 130px; /*150 em total = 130 de height y 20 de*/
+        box-shadow: 4px 4px 8px black;
+        padding: 0%;
+        padding-top: 20px;
+        margin-top: 50px;
+}
+ul{
+    list-style: square;
+    margin-block-start: 1em !important;
+    margin-block-end: 1em !important;
+    margin-left: 15px;
+}
+.sublista{
+    list-style: circle;
+}
+.lista{
+    width: 500px;
+    display: inline-block;
+    margin-top: 60px;
+    margin-left: 100px;
+}
+.imagenLista{
+    float: right;
+
+    margin-top: 160px;
+    margin-right: 200px;
+}
+#imagen_incendio {
+    width: 400px;
+}
+
+button{
+    width: 600px;
+    height: 50px;
+    border-radius: 5px;
+    text-align: center;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    background-color: #43a047;
+    color: white;
+    border: none;
+    transition: background-color 0.3s ease;
+    
+}
+button:hover {
+    background-color: #388e3c;
+}
+/*FORMULARIO ESTILOS*****************************************************************/
+
+form {
+    padding: 30px;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 400px;
+    background-color: #6158589e;
+    font-weight: 700;
+    margin: auto;
+    margin-top: 100px;
+}
+
+select {
+    display: block;
+    width: 50%;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.txt-form {
+    margin-top: 15px;
+    margin-bottom: 8px;
+    font-weight: 500;
+    color: #2aca32;
+}
+
+input[type="submit"] {
+    background-color: #43a047;
+    color: white;
+    border: none;
+    padding: 12px;
+    width: 100%;
+    border-radius: 6px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+input[type="reset"] {
+    background-color: #a04343;
+    color: white;
+    border: none;
+    padding: 12px;
+    width: 100%;
+    border-radius: 6px;
+    font-size: 16px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #388e3c;
+}
+
+input[type="reset"]:hover {
+    background-color: #8e3838;
+}
+
