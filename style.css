@@ -3,9 +3,13 @@
     padding: 0;
     
 }
+html{
+background: linear-gradient(to right, #e0f7fa, #e8f5e9);
+}
 
 body{
-    margin: 0;
+    width: 1472.8px;
+    margin: 0 auto;
     padding: 0;
     background: linear-gradient(to right, #e0f7fa, #e8f5e9);
 }
@@ -77,7 +81,8 @@ img{
 table{
     border: 1px, solid, black;
     border-collapse: collapse;
-    margin: auto;
+    margin-left: 286.4px;
+    margin-right: 286.4px;
     margin-top: 30px;
     width: 900px;
     text-align: center;
