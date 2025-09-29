@@ -67,7 +67,9 @@ nav{
 .subtituloCambioClimatico{
     margin-left: 30px;
 }
-.imagenesParrafo{
+
+/*Las imagenes son elementos de linea que actuan con propiedades de bloque comoo es el ancho*/
+.imagenesParrafo{ 
     width: 300px;
     height: 200px;
     float: right;
@@ -78,10 +80,12 @@ nav{
 img{
     width: 350px;
 }
+
+
 table{
     border: 1px, solid, black;
     border-collapse: collapse;
-    margin-left: 286.4px;
+    margin-left: 286.4px; /* ancho de la tabla - ancho maximo de la web /2*/
     margin-right: 286.4px;
     margin-top: 30px;
     width: 900px;
@@ -192,7 +196,7 @@ select {
     color: #2aca32;
 }
 
-input[type="submit"] {
+input[type="submit"] { /*accedo a la propiedad de type para controlar que solo los type submit reciban esta propiedad*/
     background-color: #43a047;
     color: white;
     border: none;
