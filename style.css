@@ -3,6 +3,9 @@
     padding: 0;
     
 }
+
+/* CONTENIDOS GENERALES EN TODAS LAS PANTALLAS*/
+
 html{
 background: linear-gradient(to right, #e0f7fa, #e8f5e9);
 }
@@ -30,18 +33,39 @@ nav{
     text-align: center;
 }
 
-
 .indice{
     display: inline-block;
     margin-left: 20px;
     margin-right: 20px;
+    padding-top: 10px;
     color: azure;
     font-family: sans-serif;
     text-decoration: none;
+    height:30px;
+    width: 300px;
+    border-radius: 10px;
+    transition: background-color 0.5s ease;
+}
 
+.indice:hover{
+    background-color: #73954f9c;  
+}
+
+footer{
+    width: 1472.8px;
+    height: 90px; /* heigth + padding-top */
+    background-color:#99c46a;
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+}
+
+footer>h3{
+    padding-top: 10px;
 }
 
 
+/* ESTRUCTURA DE PAGINA 1 ----------------------------------------------------------------------- */
 .cambiocClimaticoSeccion{
     width: 1000px;
     margin-left: 236.4px; /*calculo para centrar : ((1472.2/2)-500)= 236.4px*/
@@ -166,6 +190,9 @@ button{
     transition: background-color 0.3s ease;
     
 }
+a{
+    text-decoration: none;
+}
 button:hover {
     background-color: #388e3c;
 }
@@ -184,12 +211,12 @@ form {
 
 select {
     display: block;
-    width: 50%;
+    width: 260px;
     height: 30px;
     border-radius: 5px;
 }
 
-.txt-form {
+.txt-form {   /* dimensiones del form  */
     margin-top: 15px;
     margin-bottom: 8px;
     font-weight: 500;
@@ -216,9 +243,9 @@ input[type="reset"] {
     border-radius: 6px;
     font-size: 16px;
     margin-top: 10px;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease; /* de esta forma indico que el fondo transicione de forma fluida */
 }
-
+ /*Indico el nuevo fondo al pasar por encima del boton*/
 input[type="submit"]:hover {
     background-color: #388e3c;
 }
